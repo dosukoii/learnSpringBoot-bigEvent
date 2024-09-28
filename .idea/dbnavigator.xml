@@ -24,12 +24,15 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="2096dd74-adad-4ac7-9c59-8ebf9cfc508b" object-ref="schemas/big_event/tables/category" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="2096dd74-adad-4ac7-9c59-8ebf9cfc508b" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="2096dd74-adad-4ac7-9c59-8ebf9cfc508b" dataset="big_event.category" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="2096dd74-adad-4ac7-9c59-8ebf9cfc508b" dataset="big_event.user" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="2096dd74-adad-4ac7-9c59-8ebf9cfc508b" dataset="big_event.article" active-filter-id="EMPTY_FILTER" />
   </component>
@@ -60,7 +63,7 @@
           <deprecated-pwd value="Y29Db3MxcjBoYQ==" />
         </database>
         <properties>
-          <auto-commit value="false" />
+          <auto-commit value="true" />
         </properties>
         <ssh-settings>
           <active value="false" />
