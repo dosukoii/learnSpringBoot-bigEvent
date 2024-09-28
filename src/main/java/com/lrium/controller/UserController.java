@@ -7,6 +7,7 @@ import com.lrium.utils.JwtUtil;
 import com.lrium.utils.Md5Util;
 import com.lrium.utils.ThreadLocalUtil;
 import jakarta.validation.constraints.Pattern;
+import org.hibernate.validator.constraints.URL;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -73,6 +74,12 @@ public class UserController {
     @PutMapping("/update")
     public Result update(@RequestBody @Validated User user){
         userService.update(user);
+        return Result.success();
+    }
+
+    @PatchMapping("/updateAvatar")
+    public Result updateAvatar(@RequestParam @URL String avatarUrl){
+        userService.updateAvatar(avatarUrl);
         return Result.success();
     }
 }
