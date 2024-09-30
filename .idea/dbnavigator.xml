@@ -25,7 +25,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files>
-      <object connection-id="2096dd74-adad-4ac7-9c59-8ebf9cfc508b" object-ref="schemas/big_event/tables/category" />
+      <object connection-id="2096dd74-adad-4ac7-9c59-8ebf9cfc508b" object-ref="schemas/big_event/tables/article" />
     </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
