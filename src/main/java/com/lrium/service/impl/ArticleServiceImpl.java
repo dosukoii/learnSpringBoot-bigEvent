@@ -45,7 +45,6 @@ public class ArticleServiceImpl implements ArticleService {
         List<Article> as = articleMapper.list(userId,categoryId,state);
         //多态不允许使用父类类型使用子类特有方法
         Page<Article> p = (Page<Article>) as;
-
         pb.setTotal(p.getTotal());
         pb.setItems(p.getResult());
         return pb;
