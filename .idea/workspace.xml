@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f2c59a-d986-4c4e-bb6b-41deb1745365" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lrium/controller/fileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lrium/RedisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrium/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lrium/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrium/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lrium/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lrium/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lrium/interceptors/LoginInterceptor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BigEventApplication.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JwtTest.testGen.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.JwtTest.testParse.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ThreadLocalTest.testThreadLocaalSetAndGet.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.big-event [compile].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/project/atest/t_springboot/big-event/src/main/resources/com/lrium/mapper&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BigEventApplication.executor": "Run",
+    "JUnit.JwtTest.testGen.executor": "Run",
+    "JUnit.JwtTest.testParse.executor": "Run",
+    "JUnit.RedisTest.testGet.executor": "Run",
+    "JUnit.RedisTest.testSet.executor": "Run",
+    "JUnit.ThreadLocalTest.testThreadLocaalSetAndGet.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.big-event [compile].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/project/atest/t_springboot/big-event/src/main/resources/com/lrium/mapper",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\atest\t_springboot\big-event\src\main\resources\com\lrium\mapper" />
@@ -75,22 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JwtTest.testGen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="big-event" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lrium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lrium" />
-      <option name="MAIN_CLASS_NAME" value="com.lrium.JwtTest" />
-      <option name="METHOD_NAME" value="testGen" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JwtTest.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="big-event" />
       <extension name="coverage">
@@ -102,6 +90,38 @@
       <option name="PACKAGE_NAME" value="com.lrium" />
       <option name="MAIN_CLASS_NAME" value="com.lrium.JwtTest" />
       <option name="METHOD_NAME" value="testParse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="big-event" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lrium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lrium" />
+      <option name="MAIN_CLASS_NAME" value="com.lrium.RedisTest" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="big-event" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lrium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lrium" />
+      <option name="MAIN_CLASS_NAME" value="com.lrium.RedisTest" />
+      <option name="METHOD_NAME" value="testSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,9 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BigEventApplication" />
+        <item itemvalue="JUnit.RedisTest.testGet" />
+        <item itemvalue="JUnit.RedisTest.testSet" />
         <item itemvalue="JUnit.ThreadLocalTest.testThreadLocaalSetAndGet" />
         <item itemvalue="JUnit.JwtTest.testParse" />
-        <item itemvalue="JUnit.JwtTest.testGen" />
       </list>
     </recent_temporary>
   </component>
